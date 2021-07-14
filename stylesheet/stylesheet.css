@@ -160,9 +160,14 @@
 }
 /* main1 */
 
-/* skill */
+/* main2 */
 .skill {
   background: #f9f9f9;
+}
+
+.skill.common_section {
+  /* border: 1px solid #3c9796; */
+  padding: 10px 30px;
 }
 
 .skill .skill_content table{
@@ -215,7 +220,6 @@
 }
 
 .skill .skill_content table td.icon.rails {
-  border: 1px solid #3c9796;
   background-image: url(../images/Rails.png);
 }
 
@@ -230,3 +234,35 @@
 .skill .skill_content table td.icon.node {
   background-image: url(../images/nodejs.png);
 }
+/* skill */
+
+/* main3 */
+#main3-wrapper {
+  background-color: rgba(222, 231, 237, 0.452);
+  width: 100vw;
+}
+
+.main3-contents {
+  background-color: rgba(255, 255, 255, 0.801);
+}
+
+.main3-content {
+  padding: 10px 30px;
+}
+.main3-title {
+  text-align: center;
+  margin: 5px 0;
+  /* border: 1px solid #3c9796; */
+}
+
+.main3-title p {
+  color: rgb(25, 44, 19);
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+.main3-title h1 {
+  color: black;
+  font-family: serif;
+}
+
