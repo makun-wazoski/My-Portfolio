@@ -252,7 +252,6 @@
 .main3-title {
   text-align: center;
   margin: 5px 0;
-  /* border: 1px solid #3c9796; */
 }
 
 .main3-title p {
@@ -265,4 +264,127 @@
   color: black;
   font-family: serif;
 }
+/* main3 */
 
+/* ポートフォリオリスト */
+.portfolio-contents {
+  margin: 0 5vw;
+}
+
+.portfolio-content {
+  overflow: scroll;
+  margin: 10px 4vw;
+  padding: 10px 10px;
+  display: flex;
+  border: 1px solid rgba(128, 128, 128, 0.452);
+  background-color: rgba(244, 245, 249, 0.459);
+}
+
+.portfolio-content > a {
+  margin: 1vh 3vw;
+  padding: 10px 0;
+  border: 1px solid rgba(128, 128, 128, 0.452);
+  background-color: white;
+}
+
+.portfolio {
+  text-align: left;
+  margin: 10px 25px;
+}
+
+.portfolio > ul > li > div {
+  font-size: 13px;
+}
+.portfolio > ul > li {
+  color: rgb(77, 44, 1);
+  padding: 5px 0;
+  font-family: serif;
+}
+
+.fab {
+  color: purple;
+}
+/* main3 */
+
+/* contact */
+.contact-wrapper {
+  background: #f9f9f9;
+}
+.contact {
+  padding: 70px 5%;
+  width: 40%;
+  margin: auto;
+  background-color: white;
+}
+
+
+.contact .contact_title {
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.contact .contact_title h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.contact .contact_title p {
+  text-align: center;
+}
+
+.contact form {
+  height: auto;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.contact form input {
+  width: 500px;
+  height: 50px;
+  padding: 1px 2px;
+  background: #E9CDC1;
+  border-radius: 5px;
+  border-style: none;
+  margin: 0 auto;
+}
+
+.contact form textarea {
+  width: 125%;
+  height: 150px;
+  background: #E9CDC1;
+  border-radius: 5px;
+  border-style: none;
+  margin-bottom: 20px;
+}
+
+.contact form button {
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 30px;
+  width: 50%;
+  height: 50px;
+  color: white;
+  border-style: none;
+  background: black;
+  -webkit-transition: all 0.3s ease 0;
+  transition: all 0.3s ease 0;
+}
+
+.contact form button:hover {
+  background: #e65f78;
+}
+
+.contact .check_posi {
+  position: relative;
+}
+
+.contact .check {
+  /* border: 1px solid #3c9796; */
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -24px;
+  left: 200px;
+}
+/* contact */
