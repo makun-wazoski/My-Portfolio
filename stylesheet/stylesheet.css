@@ -367,8 +367,10 @@
   color: white;
   border-style: none;
   background: black;
+  /* ? */
   -webkit-transition: all 0.3s ease 0;
   transition: all 0.3s ease 0;
+  /* ? */
 }
 
 .contact form button:hover {
@@ -388,3 +390,68 @@
   left: 200px;
 }
 /* contact */
+
+/* footer */
+.footer-wrapper {
+  background-color: rgba(190, 133, 143, 0.507);
+  width: 100vw;
+}
+
+.footer-mask {
+  background-color: rgba(255, 255, 255, 0.801);
+}
+
+
+/* ? */
+.footer-content {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-address {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 40%;
+  border-bottom:  1px solid rgba(0, 0, 0, 0.616);
+}
+
+.footer-address > p {
+  align-self: flex-end;
+  font-family: fantasy;
+  font-size: 21px;
+  color:  rgb(61, 8, 6);
+}
+
+.footer-address > h3 {
+  align-self: flex-start;
+  font-weight: bold;
+}
+
+
+.git-hub {
+  margin-right: 10vw;
+}
+
+.footer-content > a > i {
+  color: black;
+}
+/* ? */
+
+.footer1-wrapper {
+  background-image: url(../images/bg-img2.jpg);
+  width: 100vw;
+  background-size: cover;
+}
+
+.footer1-mask {
+  background-color: rgba(193, 198, 212, 0.459);
+}
+
+.footer1-mask > p {
+  text-align: center;
+  font-size: 15px;
+  padding: 45px 0;
+  opacity: 0.6;
+}
