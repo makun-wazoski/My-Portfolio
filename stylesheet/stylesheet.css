@@ -165,8 +165,23 @@
   background: #f9f9f9;
 }
 
-.skill.common_section {
+.skill_title.common_subtitle {
+  text-align: center;
+}
+
+.skill_title.common_subtitle p {
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+.skill_title.common_subtitle h1 {
+  /* text-align: center; */
+  color: black;
+  font-family: serif;
   /* border: 1px solid #3c9796; */
+}
+
+.skill.common_section {
   padding: 10px 30px;
 }
 
@@ -334,13 +349,13 @@
 
 .contact form {
   height: auto;
-  width: 400px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .contact form input {
-  width: 500px;
-  height: 50px;
+  width: 100%;
+  height: 30px;
   padding: 1px 2px;
   background: #E9CDC1;
   border-radius: 5px;
@@ -349,7 +364,7 @@
 }
 
 .contact form textarea {
-  width: 125%;
+  width: 100%;
   height: 150px;
   background: #E9CDC1;
   border-radius: 5px;
@@ -357,7 +372,7 @@
   margin-bottom: 20px;
 }
 
-.contact form button {
+.contact form .button {
   font-size: 16px;
   display: block;
   margin: 0 auto;
@@ -373,22 +388,22 @@
   /* ? */
 }
 
-.contact form button:hover {
+.contact form .button:hover {
   background: #e65f78;
 }
 
-.contact .check_posi {
+/* .contact .check_posi {
   position: relative;
-}
+} */
 
-.contact .check {
-  /* border: 1px solid #3c9796; */
+/* .contact .check {
+  border: 1px solid #3c9796;
   width: 20px;
   height: 20px;
   position: relative;
   top: -24px;
   left: 200px;
-}
+} */
 /* contact */
 
 /* footer */
