@@ -10,49 +10,26 @@
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="images/favicon1.png">
   <script src="https://sdk.form.run/js/v2/formrun.js"></script>
-  <script type="text/javascript">
-    // <!--
-    
-    function disp(){
-    
-      // 「OK」時の処理開始 ＋ 確認ダイアログの表示
-      if(window.confirm('内容の確認はよろしいですか？')){
-    
-        location.href = "mailto:mo19850226@gmail.com"; // example_confirm.html へジャンプ
-    
-      }
-      // 「OK」時の処理終了
-    
-      // 「キャンセル」時の処理開始
-      else{
-    
-        window.alert('キャンセルされました'); // 警告ダイアログを表示
-    
-      }
-      // 「キャンセル」時の処理終了
-    
-    }
-    
-    // -->
-    </script>
 </head>
 
 <body>
 
-  <header>
-    <div id="header-wrapper">
-      <div class="header-mask">
-        <div class="header-container">
-          <h1>Portfolio</h1>
-          <h3>Success is how high you bounce when you hit bottom.</h3>
-          <div class="animation1">
-            <div class="effect1"></div>
-            <a href="#main1-wrapper"> About me </a>
-          </div>
+<!-- header -->
+<header>
+  <div id="header-wrapper">
+    <div class="header-mask">
+      <div class="header-container">
+        <h1>Portfolio</h1>
+        <h3>Success is how high you bounce when you hit bottom.</h3>
+        <div class="animation1">
+          <div class="effect1"></div>
+          <a href="#main1-wrapper"> About me </a>
         </div>
       </div>
     </div>
-  </header>
+  </div>
+</header>
+<!-- header -->
 
 <!-- main1 -->
 <main>
@@ -177,7 +154,7 @@
         </div>
         
         <!-- ポートフォリオリスト -->
-        <div class="portfolio-contents">     
+        <div class="portfolio-contents">
           <div class="portfolio-content">
             <a href="https://power-spot-app.com" target="_blank" rel="noopener noreferrer"><img src="images/power-spot-app.png" alt="power-spot-app.png" width="300" height="200"></a>
             <div class="portfolio">
@@ -198,14 +175,12 @@
                 <li>【使用技術】<div>HTML / CSS</div></li>
                 <li>【機能一覧】<div>模写サイト（レスポンシブ対応）　</div></li>
                 <li>【説明】<a href="https://github.com/makun-wazoski/Copy" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i>GitHub</a>
-                </ul>
-              </div>  
-            </div>
+              </ul>
+            </div>  
           </div>
         </div>
-      </div>
-    </div>
-    <!-- main3 -->
+        <!-- ポートフォリオリスト -->
+  <!-- main3 -->
 
     <!-- contact -->
     <div class="contact-wrapper">
@@ -214,50 +189,29 @@
           <h2>お問い合わせ</h2>
           <p>下記お問い合わせフォームかツイッターのDMでご連絡ください</p>
         </div>
-        <form >
+        <form class="formrun" action="https://form.run/api/v1/r/k4p99aj23teoqoq0sdfyetya" method="post">
           <label for="name">お名前（漢字）</label>
           <input type="text" name="name" required>
           <label for="kana">お名前（フリガナ)</label>
-          <input type="text" name="kana" value="" pattern="(?=.*?[\u30A1-\u30FC])[\u30A1-\u30FC\s]*" title="カタカナ" required />
+          <input type="text" name="kana" value="" pattern="(?=.*?[\u30A1-\u30FC])[\u30A1-\u30FC\s]*" title="カタカナで入力してください" required />
           <label for="email">メールアドレス</label>
-          <input type="email" name="email" value="" style="ime-mode:disabled" >
+          <input type="text" name="email" value="" style="ime-mode:disabled" pattern="^[a-zA-Z0-9_.+-]+@([a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9]*\.)+[a-zA-Z]{2,}$" title="メールアドレスを正しく入力してください" required>
           <label for="messege">メッセージ</label>
-          <textarea name="message" required></textarea>
-          <!-- <label for="agreement"><a href="#">利用規約</a>に同意しますか？</label>
+          <textarea name="message" pattern=".*\S+.*" required></textarea>
           <div class="check_posi">
-            <input class="check" type="checkbox" name="agreement" id="agreement" value="1" required>
-          </div> -->
-          <!-- <input class="button" type="button" value="SEND" onClick="disp()"> -->
+            <label class="check_posi_label">
+              <input class="check" type="checkbox" name="agreement" id="agreement" value="1" required> <a>個人情報保護方針</a>に同意します
+            </label>
+          </div>
+          <button >Send</button>
         </form>
+        </div>
       </div>
     </div>
-  </main> 
-  <!-- contact -->
+    <!-- contact -->
+    
+</main>
 
-  <!-- test -->
-  <form class="formrun" action="https://form.run/api/v1/r/k4p99aj23teoqoq0sdfyetya" method="post">
-    <label for="name">お名前（漢字）</label>
-    <input type="text" name="name" required>
-    <label for="kana">お名前（フリガナ)</label>
-    <input type="text" name="kana" value="" pattern="(?=.*?[\u30A1-\u30FC])[\u30A1-\u30FC\s]*" title="カタカナ" required />
-    <label for="email">メールアドレス</label>
-    <input type="text" name="メールアドレス" data-formrun-type="email" data-formrun-required>
-    <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
-    <label for="messege">メッセージ</label>
-    <textarea name="お問い合わせ" data-formrun-required></textarea>
-    <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
-    <div class="form-check">
-      <label class="form-check-label">
-        <input class="form-check-input" type="checkbox" name="個人情報保護方針に同意" data-formrun-required> <a>個人情報保護方針</a>に同意します
-      </label>
-    </div>
-    <span class="text-danger" data-formrun-show-if-error="個人情報保護方針に同意">同意してください</span>
-    
-    <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
-    <!-- <input class="button" type="button" value="SEND" onClick="disp()"> -->
-    </form>
-    <!-- test -->
-    
     <!-- footer -->
     <footer>
     <div class="footer-wrapper">

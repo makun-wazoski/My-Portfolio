@@ -116,6 +116,7 @@
   font-family: serif;
   margin-bottom: 5px;
 }
+/* main1 */
 
 /* skill btn アニメーション */
 .animation2 {
@@ -175,7 +176,6 @@
 }
 
 .skill_title.common_subtitle h1 {
-  /* text-align: center; */
   color: black;
   font-family: serif;
   /* border: 1px solid #3c9796; */
@@ -249,7 +249,7 @@
 .skill .skill_content table td.icon.node {
   background-image: url(../images/nodejs.png);
 }
-/* skill */
+/* main2 */
 
 /* main3 */
 #main3-wrapper {
@@ -279,7 +279,6 @@
   color: black;
   font-family: serif;
 }
-/* main3 */
 
 /* ポートフォリオリスト */
 .portfolio-contents {
@@ -319,6 +318,7 @@
 .fab {
   color: purple;
 }
+/* ポートフォリオリスト */
 /* main3 */
 
 /* contact */
@@ -372,7 +372,7 @@
   margin-bottom: 20px;
 }
 
-.contact form .button {
+.contact form button {
   font-size: 16px;
   display: block;
   margin: 0 auto;
@@ -383,27 +383,24 @@
   border-style: none;
   background: black;
   /* ? */
-  -webkit-transition: all 0.3s ease 0;
-  transition: all 0.3s ease 0;
+  /* -webkit-transition: all 0.3s ease 0;
+  transition: all 0.3s ease 0; */
   /* ? */
 }
 
-.contact form .button:hover {
+.contact form button:hover {
   background: #e65f78;
 }
 
-/* .contact .check_posi {
-  position: relative;
-} */
+.check_posi {
+  margin-bottom: 30px;
+  /* border: 1px solid #3c9796; */
+}
 
-/* .contact .check {
-  border: 1px solid #3c9796;
+.contact .check {
   width: 20px;
   height: 20px;
-  position: relative;
-  top: -24px;
-  left: 200px;
-} */
+}
 /* contact */
 
 /* footer */
@@ -416,8 +413,6 @@
   background-color: rgba(255, 255, 255, 0.801);
 }
 
-
-/* ? */
 .footer-content {
   text-align: center;
   padding: 10px 0;
@@ -444,7 +439,6 @@
   font-weight: bold;
 }
 
-
 .git-hub {
   margin-right: 10vw;
 }
@@ -452,7 +446,6 @@
 .footer-content > a > i {
   color: black;
 }
-/* ? */
 
 .footer1-wrapper {
   background-image: url(../images/bg-img2.jpg);
@@ -470,3 +463,4 @@
   padding: 45px 0;
   opacity: 0.6;
 }
+/* footer */
