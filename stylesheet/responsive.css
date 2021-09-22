@@ -1,0 +1,100 @@
+/* タブレット表示 */
+@media(max-width: 959px) {
+  /* header */
+  #header-wrapper {
+    width: 100%;
+  }
+  /* header */
+
+  /* main1 */
+  #main1-wrapper {
+    width: 100%;
+  }
+  
+  .image {
+    border-radius: 50%;
+    margin-left: 0;
+  }
+  
+  .right-content {
+    margin: 7vh 0;
+  }
+  /* main1 */
+  
+  /* main2 */
+  #main2-wrapper {
+    width: 100%;
+  }
+  /* main2 */
+
+  /* main3 */
+  #main3-wrapper {
+    width: 100%;
+    /* margin: 0; */
+  }
+  
+  .main3-contents {
+    width: 100%;
+  }
+  
+  .main3-content {
+    width: 105vw;
+    padding: 5px 0;
+  }
+  
+  .main3-title > p {
+    font-size: 15px;
+  }
+  
+  .main3-title > h1 {
+    font-size: 25%;
+  }
+  
+  .portfolio-contents {
+    margin: 5vh 5vw;
+  }
+  
+  /* 21/9/22 ここまでやってみてわかったが、あまり上記が反映していると思えない
+  少なくとも「.portfolio-contents」は反映していなかった */
+  
+  .portfolio-content {
+    margin:5px 0;
+    padding: 5px 0;
+  }
+  
+  .portfolio-content > a {
+    margin: 1vh 1vw;
+  }
+  /* main3 */
+  
+  /* footer */
+  .footer-wrapper {
+    width: 100%;
+  }
+  
+  .footer-content > p {
+    font-size: 15px;
+  }
+  
+  .footer-content > h1 {
+    font-size: 25px;
+  }
+  
+  .footer-address {
+    margin: 5px auto;
+    width: 60%;
+  }
+  
+  .footer1-wrapper {
+    width: 100%;
+  }
+  
+  .footer1-mask  > p{
+    padding: 30px 0;
+  }
+  /* footer */
+
+  /* 21/9/22 反映の有無の答えは基本的には「有」
+  ただ、反映してないものもあるので要確認 */
+  
+}
