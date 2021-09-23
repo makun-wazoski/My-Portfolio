@@ -98,12 +98,33 @@
   ただ、反映してないものもあるので要確認 */
   
   /* スマホ表示時 */
-  @media (max-width: 599px) {
+  @media (max-width: 375px) {
     /* header */
   #header-wrapper {
-    width: 121vw;
+    width: auto;
   }
   /* header */
+
+  /* main1 */
+  #main1-wrapper {
+    width: auto;
+  }
+
+  #main-wrapper {
+    width: auto;
+  }
+
+  .main3-content{
+    width: auto;
+  }
+
+  .contact-wrapper {
+    width: auto;
+  }
+
+  .contact {
+    width: auto;
+  }
 
   }
 }
