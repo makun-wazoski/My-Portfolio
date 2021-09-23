@@ -2,7 +2,7 @@
 @media(max-width: 959px) {
   /* header */
   #header-wrapper {
-    width: 100%;
+    width: 105vw;
   }
   /* header */
 
@@ -101,9 +101,9 @@
   @media (max-width: 599px) {
     /* header */
   #header-wrapper {
-    width: 100%;
+    width: 121vw;
   }
   /* header */
-  
+
   }
 }
