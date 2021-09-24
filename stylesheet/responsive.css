@@ -114,22 +114,83 @@
   /* main1 */
   #main1-wrapper {
     width: auto;
+    height: auto;
   }
-
-  #main-wrapper {
-    width: auto;
+  
+  /* .main1-contents {
+    height: auto;
+  } */
+  
+  .contents {
+    display: block;
   }
-
+  
+  .image1 {
+    margin: 0 auto;
+  }
+  /* main1 */
+  
+  /* main2 */
+  .skill .skill_content table td.icon.html {
+    background-image: none;
+  }
+  
+  .skill .skill_content table td.icon.css {
+    background-image: none;
+  }
+  
+  .skill .skill_content table td.icon.js {
+    background-image: none;
+  }
+  
+  .skill .skill_content table td.icon.jq {
+    background-image: none;
+  }
+  
+  .skill .skill_content table td.icon.ruby {
+    background-image: none;
+  }
+  
+  .skill .skill_content table td.icon.rails {
+    background-image: none;
+  }
+  
+  .skill .skill_content table td.icon.aws {
+    background-image: none;
+  }
+  
+  .skill .skill_content table td.icon.mysql {
+    background-image: none;
+  }
+  
+  .skill .skill_content table td.icon.node {
+    background-image: none;
+  }
+  /* main2 */
+  
+  /* main3 */
   .main3-content{
     width: auto;
   }
+  
+  /* ポートフォリオリスト */
+  .portfolio-content{
+    display: block;
+  }
+  /* ポートフォリオリスト */
+  /* main3 */
 
+  /* contact */
   .contact-wrapper {
     width: auto;
   }
 
   .contact {
     width: auto;
+  }
+
+  .contact .contact_title h2 {
+    font-size: 30px;
   }
 
   }
