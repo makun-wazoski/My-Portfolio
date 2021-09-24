@@ -98,11 +98,11 @@
   ただ、反映してないものもあるので要確認 */
   
   /* スマホ表示時 */
-  @media (max-width: 375px) {
+  @media (max-width: 428px) {
 
   body {
-      /* プロジェクトによって変動 */
-      min-width: 375px;
+    /* プロジェクトによって変動 */
+    min-width: 375px;
   }
 
     /* header */
@@ -117,16 +117,18 @@
     height: auto;
   }
   
-  /* .main1-contents {
-    height: auto;
-  } */
-  
   .contents {
     display: block;
   }
   
+  .left-content {
+    text-align: center;
+  }
+
   .image1 {
     margin: 0 auto;
+    height: 200px;
+    width: 200px;
   }
   /* main1 */
   
@@ -174,8 +176,17 @@
   }
   
   /* ポートフォリオリスト */
+  .portfolio-contents {
+    text-align: center;
+  }
+
   .portfolio-content{
     display: block;
+    overflow: auto;
+  }
+
+  .portfolio-content > a > img {
+    width: 370px;
   }
   /* ポートフォリオリスト */
   /* main3 */
@@ -184,14 +195,15 @@
   .contact-wrapper {
     width: auto;
   }
-
+  
   .contact {
     width: auto;
   }
-
+  
   .contact .contact_title h2 {
     font-size: 30px;
   }
+  /* contact */
 
   }
 }
