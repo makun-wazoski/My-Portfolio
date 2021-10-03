@@ -101,6 +101,10 @@
   #header-wrapper {
     width: 100%;
   }
+
+  .header-container {
+    margin: 0 100px;
+  }
   /* header */
 
   /* main1 */

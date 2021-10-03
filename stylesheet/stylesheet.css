@@ -414,9 +414,12 @@ nav .inner ul li a:hover {
   display: flex;
   border: 1px solid rgba(128, 128, 128, 0.452);
   background-color: rgba(244, 245, 249, 0.459);
+  align-items: center;
 }
 
 .portfolio-content > a {
+  width: 300px;
+  height: 200px;
   margin: 1vh 3vw;
   padding: 10px 0;
   border: 1px solid rgba(128, 128, 128, 0.452);
